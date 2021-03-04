@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import os, subprocess
 
-WKDIR = "./wkdir"
+WKDIR = "~/repos"
 PWD = os.path.abspath(os.path.dirname(__file__))
 REPOS = os.path.join(PWD, 'repos.csv')
 
